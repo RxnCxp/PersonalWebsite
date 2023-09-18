@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #878f99; 
+  margin: 0;
+  padding: 20px;
+  background-image: url(../images/background.jpg);
+  color: #ffffff;
+}
+
+.container {
+  background-color: rgba(25, 35, 68, 0.7); /* Adjust the alpha (opacity) value as needed */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(107, 32, 32, 0.1);
+}
+
+.container table {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.container img {
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+p {
+  display: block;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.section h2 {
+  color: #ffffff;
+}
+
+.skills-table {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-group {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+#dota-background {
+  background-image: url('/cv-main/images/dota2.jpg');
+  background-size: cover;
+  size: 120%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #030303; /* Adjust text color for visibility */
+  padding: 20px; /* Add padding for content */
+}
+.skill {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.rating {
+  font-size: 24px;
+}
+
+
+.home .button {
+  margin: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.home .button:hover {
+  background-color: #555;
+  color: #ffffff;
+}
+.skillstable {
+  display: flex;
+  justify-content: flex-start; /* Align to the left */
+}
+
+.skillitems {
+  text-align: center;
+  margin-right: 20px; /* Add margin to create space between items */
+}
+
+.skillitems img {
+  width: 100px; /* Adjust the width of the images */
+  height: 100px; /* Adjust the height of the images */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire area */
+  padding: 10px; /* Add padding for box shape */
+  border: 2px solid white; /* Add border for box shape */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  display: block;
+  margin: 0 auto 10px; /* Center the image and create space below */
+}
+
+.skillitems label {
+  color: white; /* Adjust label color */
+  display: block;
+}
+
+
+
